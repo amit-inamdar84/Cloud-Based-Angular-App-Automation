@@ -1,0 +1,12 @@
+Mocha by default looks for test folder under root directory and runs all .js files
+If we need to specify tests in other directories/sub directories, create a file .mochaarc.js under root directory
+Insert below code in this file:
+'use strict';
+
+module.exports = {
+  spec: ['./tests/api/**/*.js']
+};
+
+In package.json define a script  "test": "mocha .mocharc.js"
+Navigate to project folder in CLI and run the command: npm run test
+It will run all tests(.js files) under the folder tests and sub folder api.

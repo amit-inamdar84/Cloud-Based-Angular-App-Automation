@@ -1,0 +1,28 @@
+{
+  "name": "Cloud-Based-Angular-App-Automation",
+  "version": "1.0.0",
+  "description": "POC for API automation testing using Axios and XYZ automation framework POC",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "mocha": "^8.3.2",
+    "chai": "^4.3.4"
+  },
+  "scripts": {
+    "test": "mocha .mocharc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit-inamdar84/Cloud-Based-Angular-App-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit-inamdar84/Cloud-Based-Angular-App-Automation/issues"
+  },
+  "homepage": "https://github.com/amit-inamdar84/Cloud-Based-Angular-App-Automation#readme"
+}
